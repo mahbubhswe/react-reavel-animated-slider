@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.MuiAppBar-colorPrimary {
+  background-color: #0f2178 !important;
+  padding: 5px 0px;
+}
+.carousel-container {
+  background-image: linear-gradient(to right, rgb(116, 51, 177), #0d2177);
+  padding: 10px 0px;
+}
+.slider-container {
+  background-image: linear-gradient(to right, rgb(116, 51, 177), #0d2177);
+  display: flex;
+  height: 100vh;
+}
+.left-side {
+  width: 50%;
+  display: grid;
+  place-content: center;
+}
+.right-side {
+  width: 50%;
+  display: grid;
+  place-content: center;
+  color: #ffffff;
+}
+.right-side > button {
+  background-color: #059862;
+}
+.right-side > button > a {
+  background-color: #059862;
+  color: #f1ce49;
+  font-weight: bolder;
+  font-size: 21px;
+  text-decoration: none;
+}
+.right-side > h3 {
+  color: #e91e63;
+  font-family: 'Gluten', cursive;
+}
+
+.product-category {
+  height: 80vh;
+  width: 100vw;
+  margin: 0px auto;
+  background-color: #f1ce49;
+  padding: 30px 10px;
+}
+h1 {
+  color: #e91e63;
+  font-family: 'Gluten', cursive;
+  text-align: center;
+}
+.MuiButton-label {
+  font-family: 'Gluten', cursive;
+  font-size: 21px;
+  color: #2f278a;
+}
+.customer {
+  padding: 30px 10px;
+  background-color: #072331;
+}
+.customer > p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 21px;
+  font-weight: bolder;
+}
